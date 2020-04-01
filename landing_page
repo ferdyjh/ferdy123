@@ -1,1 +1,330 @@
+<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="CodePixar">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>SISPENASI</title>
 
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/jquery.DonutWidget.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+			
+		</head>
+		<body>
+
+			<!-- Start Header Area -->
+			<header class="default-header">
+				<nav class="navbar navbar-expand-lg  navbar-light">
+					<div class="container">
+						  <a class="navbar-brand" href="index.html">
+						  	<img src="img/logo.jpg" alt="image" height="43" width="45">
+						  </a>
+						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon"></span>
+						  </button>
+
+						  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+						    <ul class="navbar-nav">
+								<li><a href="index.php">Beranda</a></li>
+								<li><a href="../login/logn.php">Masuk</a></li>
+								<li><a href="#contact">Kontak</a></li>
+								
+							   <!-- Dropdown -->
+							    <li class="dropdown">
+							      <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							        Pelayanan
+							      </a>
+							      <div class="dropdown-menu">
+								  <a class="dropdown-item" href="#project">Kegiatan Dokumentasi</a>
+									<a class="dropdown-item" href="umum.html">Pelayanan Umum</a>
+									<a class="dropdown-item" href="pepemas.html">Pelayanan Pemberdayaan Masyarakat</a>
+									<a class="dropdown-item" href="pelkeban.html">Pelayanan Ketentraman dan Ketertiban</a>
+								  </div>
+								</li>
+								<li class="dropdown">
+								  <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+							        Data Wilayah
+							      </a>
+								  <div class="dropdown-menu">
+									<a class="dropdown-item" href="geografi.html">Kondisi Geografi</a>
+									<a class="dropdown-item" href="infra.html">Infrastruktur</a>
+							      </div>
+								</li>	
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+									  Tentang Kami
+									</a>
+									<div class="dropdown-menu">
+									  <a class="dropdown-item" href="visi.html">Visi Dan Misi</a>
+									  <a class="dropdown-item" href="#contact">Hubungi</a>
+									  <a class="dropdown-item" href="tugasfungsi.html">Tugas Fungsi</a>
+									</div>
+								  </li>	
+								  
+								  			
+						    </ul>
+						  </div>						
+					</div>
+				</nav>
+			</header>
+			<!-- End Header Area -->
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home" data-parallax="scroll" data-image-src="img/pict.jpg">
+				<div class="overlay-bg overlay"></div>
+				<div class="container">
+					<div class="row fullscreen  d-flex align-items-center justify-content-end">
+						<div class="banner-content col-lg-6 col-md-12">
+							<h1>
+								Pelayanan Administrasi
+								<br> DKI Jakarta						
+							</h1>
+						</div>												
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+
+			<section class="project-area section-gap" id="project">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-40 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Selamat Datang di 
+								<br>	
+								SISPENSI</h1>
+								<p>Adalah Pelayanan Administrasi Masyarakat Berbasis Website yang mengenai persyaratan, pengaduan, pelaksanaan dan beberapa yang mengenai Pelayanan Umum DKI</p>
+							</div>
+						</div>
+					</div>						
+			<!-- start service Area-->
+			<section class="service-area pt-100 pb-150" id="service">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-70 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10"><u>Pelayanan</u></h1>
+								
+							</div>
+						</div>
+					</div>	
+					<div class="row">
+						<div class="sigle-service col-lg-3 col-md-6">
+							<center><span class="lnr lnr-pencil"></span>
+							<h4>Surat Keterangan Domisili Usaha</h4>
+							<p>
+							Surat Keterangan Domisili Usaha (SKDU) adalah surat keterangan resmi dari Kelurahan dan/atau Kecamatan setempat yang menjelaskan bahwa benar adanya suatu usaha berlokasi di alamat/domisili tertentu.
+							</p>
+							<a href="pelayanan_umum/SKDU_.php" class="text-uppercase primary-btn2 primary-border circle">Pilih</a>
+						</div>
+						</center>
+						<div class="sigle-service col-lg-3 col-md-6">
+						<center><span class="lnr lnr-pencil"></span>
+							<h4>Surat Pengantar Izin Mendirikan Bangunan</h4>
+							<p>
+							Izin Mendirikan Bangunan atau biasa dikenal dengan IMB adalah perizinan yang diberikan oleh Kepala Daerah kepada pemilik bangunan untuk membangun baru, mengubah, memperluas, mengurangi, dan/atau merawat bangunan sesuai dengan persyaratan administratif dan persyaratan teknis yang berlaku.
+							</p>
+							<a href="pelayanan_umum/SPIMB_.php" class="text-uppercase primary-btn2 primary-border circle">Pilih</a>
+						</div>
+						</center>
+						<div class="sigle-service col-lg-3 col-md-6">
+						<center><span class="lnr lnr-pencil"></span>
+							<h4>Surat Rekomendasi Izin Keramaian</h4>
+							<p>
+							Menggelar sebuah acara yang mengundang massa dalam jumlah banyak seperti konser, pameran, pentas seni, dan lainnya, tentu memerlukan surat izin.
+							</p>
+							<a href="pelayanan_umum/SRIK_.php" class="text-uppercase primary-btn2 primary-border circle">Pilih</a>
+						</div>
+						</center>
+						<div class="sigle-service col-lg-3 col-md-6">
+						<center><span class="lnr lnr-pencil"></span>
+							<h4>Surat Tanah</h4>
+							<p>
+							Surat keterangan tanah tersebut merupakan salah satu alat bukti tertulis untuk menunjukkan kepemilikan tanah guna kepentingan proses pendaftaran tanah.
+							</p>
+							<a href="pelayanan_umum/surat_tanah.php" class="text-uppercase primary-btn2 primary-border circle">Pilih</a>
+						</div>	
+						</center>													
+					</div>
+				</div>	
+			</section>
+			<!-- end service Area-->
+			<!-- Start project Area -->
+			<section class="project-area section-gap" id="project">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-40 col-lg-8">
+							<div class="title text-center">
+								<h1 class="mb-10">Kegiatan Dan Dokumentasi</h1>
+								<p>Dokumenter dan Kegiatan Pelayanan Administrasi Berbasis Website </p>
+							</div>
+						</div>
+					</div>						
+					<div class="row">
+						<div class="active-works-carousel mt-40">
+							<div class="item">
+								<img class="img-fluid" src="img/slide1.png" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Pelayanan</h6>
+									<p>Pelayanan adalah </p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/meruya.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Pelayanan</h6>
+									<p>Pelayanan adalah</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/slide3.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Pelayanan</h6>
+									<p>Pelayanan adalah</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/pelayanan.png" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Pelayanan</h6>
+									<p>Pelayanan adalah</p>
+								</div>
+							</div>
+							<div class="item">
+								<img class="img-fluid" src="img/project.jpg" alt="">
+								<div class="caption text-center mt-20">
+									<h6 class="text-uppercase">Pelayanan</h6>
+									<p>Pelayanan adalah</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End project Area -->
+
+			<!-- start footer Area -->		
+			<section id="contact">
+
+				<!-- Heading -->
+				<br>
+				<h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+		
+				<!--Grid row-->
+				<div class="row">
+		
+				  <!--Grid column-->
+				  <div class="col-lg-5 col-md-12">
+					<!-- Form contact -->
+					<form class="p-5 grey-text">
+					  <div class="md-form form-sm"> <i class="fa fa-user prefix"></i>
+						<input type="text" id="form3" class="form-control form-control-sm">
+						<label for="form3">Your name</label>
+					  </div>
+					  <div class="md-form form-sm"> <i class="fa fa-envelope prefix"></i>
+						<input type="text" id="form2" class="form-control form-control-sm">
+						<label for="form2">Your email</label>
+					  </div>
+					  <div class="md-form form-sm"> <i class="fa fa-tag prefix"></i>
+						<input type="text" id="form32" class="form-control form-control-sm">
+						<label for="form34">Subject</label>
+					  </div>
+					  <div class="md-form form-sm"> <i class="fa fa-pencil prefix"></i>
+						<textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
+						<label for="form8">Your message</label>
+					  </div>
+					  <div class="text-center mt-4">
+						<button class="btn btn-primary">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+					  </div>
+					</form>
+					<!-- Form contact -->
+				  </div>
+				  <!--Grid column-->
+		
+				  <!--Grid column-->
+				  <div class="col-lg-7 col-md-12">
+		
+					<!--Grid row-->
+					<div class="row text-center">
+		
+					  <!--Grid column-->
+					  <div class="col-lg-4 col-md-12 mb-3">
+		
+						<p><i class="fa fa-map fa-1x mr-2 grey-text"></i>Meruya Selatan</p>
+		
+					  </div>
+					  <!--Grid column-->
+		
+					  <!--Grid column-->
+					  <div class="col-lg-4 col-md-6 mb-3">
+		
+						<p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Senin - Jum'at, 8:00-22:00</p>
+		
+					  </div>
+					  <!--Grid column-->
+		
+					  <!--Grid column-->
+					  <div class="col-lg-4 col-md-6 mb-3">
+		
+						<p><i class="fa fa-phone fa-1x mr-2 grey-text"></i>(081)219455484</p>
+		
+					  </div>
+					  <!--Grid column-->
+		
+					</div>
+					<!--Grid row-->
+		
+					<!--Google map-->
+					<div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.89811028682553!2d106.73620320387597!3d-6.214869995501019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f74e0978aa0b%3A0x54563a26ea042a19!2sKelurahan%20Meruya%20Selatan!5e0!3m2!1sid!2sid!4v1584027722262!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				  </div>
+				  </div>
+				  <!--Grid column-->
+		
+				</div>
+				<!--Grid row-->
+		
+			  </section>
+			  <!--Section: Contact-->
+		
+			</div>
+		  </main>
+		  <br>
+		  <br>
+			<div class="copyright"><p>
+	  Copyright 2020 &copy; </i> | by Sinansi</a>
+		</div>
+		</footer>
+			<!-- End footer Area -->		
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/parallax.min.js"></script>			
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/jquery.DonutWidget.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>			
+			<script src="js/main.js"></script>	
+			<script src="js/tes.js"></script>	
+		</body>
+	</html>
